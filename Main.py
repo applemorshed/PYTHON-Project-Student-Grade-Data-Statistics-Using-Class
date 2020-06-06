@@ -30,8 +30,7 @@ class Student:
 def sort_gender(g):
     return g['Gender']
 '''
-# Answer to the Question No 2
-#---------------------------------------------------------------#
+
 
 
 def csvToList(src):
