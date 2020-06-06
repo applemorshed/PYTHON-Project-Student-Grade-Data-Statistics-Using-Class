@@ -47,9 +47,6 @@ def csvToList(src):
         student_file.append(class_dict)
     print(student_file)
 
-# Answer to the Question No 3
-#---------------------------------------------------------------#
-
 
 def csvToJson(src, dst):
     src.seek(0, 0)
@@ -68,9 +65,6 @@ def csvToJson(src, dst):
     print(json_str)
     dst.write(json_str)
     dst.flush()
-
-# Answer to the Question No 4
-#---------------------------------------------------------------#
 
 
 def csvToJsonGenderOrdered(src, dst, gender):
@@ -104,9 +98,6 @@ def csvToJsonGenderOrdered(src, dst, gender):
     dst.write(json_str)
     dst.flush()
 
-
-# Answer to the Question No 1
-#---------------------------------------------------------------#
 
 def calculateClassStats(src, dst):
     src.seek(0, 0)
